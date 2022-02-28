@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ec2c94d0bce90047b3f5eb118956f88, type: 3}
+  m_Name: TurretTower
+  m_EditorClassIdentifier: 
+  cost: 5
+  damage: 3
+  radius: 4
+  attackSpeed: 0.15
+  icon: {fileID: 21300000, guid: 1f048109d3f7e44458595ae94e541e08, type: 3}
+  model: {fileID: 21300000, guid: c036d345e8dca19418efcc16006b24c6, type: 3}
+  upgradeChains:
+  - upgrades:
+    - {fileID: 11400000, guid: 4c01a893be851c048ac13de16e386c55, type: 2}
+    - {fileID: 11400000, guid: f474f426d6ecd6345a9b49b7b265d999, type: 2}
+    - {fileID: 11400000, guid: 256a51574529cf441a0bdf268409c37f, type: 2}
+  - upgrades:
+    - {fileID: 11400000, guid: 4c01a893be851c048ac13de16e386c55, type: 2}
+    - {fileID: 11400000, guid: f474f426d6ecd6345a9b49b7b265d999, type: 2}
+    - {fileID: 11400000, guid: 256a51574529cf441a0bdf268409c37f, type: 2}
+  - upgrades:
+    - {fileID: 11400000, guid: 4c01a893be851c048ac13de16e386c55, type: 2}
+    - {fileID: 11400000, guid: f474f426d6ecd6345a9b49b7b265d999, type: 2}
+    - {fileID: 11400000, guid: 256a51574529cf441a0bdf268409c37f, type: 2}
+    - {fileID: 11400000, guid: e12be44791f05f24686e908259bdbca2, type: 2}
+  - upgrades:
+    - {fileID: 11400000, guid: 4c01a893be851c048ac13de16e386c55, type: 2}
+    - {fileID: 11400000, guid: f474f426d6ecd6345a9b49b7b265d999, type: 2}
+    - {fileID: 11400000, guid: 256a51574529cf441a0bdf268409c37f, type: 2}
+    - {fileID: 11400000, guid: e12be44791f05f24686e908259bdbca2, type: 2}
+  barrel: {fileID: 21300000, guid: ebbd8d79ed315f843941d640b8d54c0c, type: 3}
+  bullet: {fileID: 3994644397455515019, guid: 84fc7b74d0ca32f4992518055e31c23c, type: 3}

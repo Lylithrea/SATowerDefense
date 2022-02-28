@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2669b887b9036344ac4b509b9ec2c86, type: 3}
+  m_Name: DebuffTower
+  m_EditorClassIdentifier: 
+  cost: 6
+  damage: 0
+  radius: 3
+  attackSpeed: 0.47
+  icon: {fileID: 21300000, guid: cfa3416c99705c64b96c6f642a2127c9, type: 3}
+  model: {fileID: 21300000, guid: f8ef6897f430a9c4ba95809bc6565a7c, type: 3}
+  upgradeChains: []
+  debuff: 0
+  target: 1
+  duration: 3
+  effectiveness: 0.5
